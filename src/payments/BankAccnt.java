@@ -1,14 +1,14 @@
 package payments;
 
-public class BankAccnt implements PayMethod{
+public class BankTransfer implements PayMethod{
     private String account;
     protected static final double fee = 0.01;
     public String bank;
 
-    public BankAccnt(){ 
+    public BankTransfer(){ 
         this.account = "0000"; 
     }
-    public BankAccnt(String account){ 
+    public BankTransfer(String account){ 
         this.account = account; 
     }
 
