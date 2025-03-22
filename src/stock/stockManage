@@ -1,9 +1,0 @@
-package stock;
-
-import item.Item;
-
-public interface StockManagement {
-    void add(Item item, int quantity);
-    Item get(String id);
-    int checkStock(String id);
-}
